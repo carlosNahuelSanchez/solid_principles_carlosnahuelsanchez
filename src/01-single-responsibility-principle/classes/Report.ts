@@ -1,4 +1,4 @@
-import { IReport } from "./IReport";
+import { IReport } from "../interfaces/IReport";
 
 export class BodyReport implements IReport {
 

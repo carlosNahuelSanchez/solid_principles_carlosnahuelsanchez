@@ -1,6 +1,6 @@
-import { ReportPrinter } from "./ReportPrinter";
-import { ReportSaver } from "./ReportSaver";
-import { BodyReport } from "./Report";
+import { ReportPrinter } from "./classes/ReportPrinter";
+import { ReportSaver } from "./classes/ReportSaver";
+import { BodyReport } from "./classes/Report";
 
 const report = new BodyReport("Reporte Titulo", "Reporte Descripcion")
 
