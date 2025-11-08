@@ -3,15 +3,15 @@
     "version": "1.0.0",
     "type": "module",
     "scripts": {
-        "dev": "tsx watch src/app.ts",
-        "start": "tsx src/app.ts",
-        "demo:srp": "tsx src/01-single-responsibility-principle/index.ts",
-        "demo:ocp": "tsx src/02-open-closed-principle/index.ts",
-        "demo:lsp": "tsx src/03-liskov-substitution-principle/index.ts",
-        "demo:isp": "tsx src/04-interface-segregation-principle/index.ts",
-        "demo:dip": "tsx src/05-dependency-inversion-principle/index.ts"
+        "dev": "tsx src/app.ts",
+        "demo:srp": "tsx src/app.ts srp",
+        "demo:ocp": "tsx src/app.ts ocp",
+        "demo:lsp": "tsx src/app.ts lsp",
+        "demo:isp": "tsx src/app.ts isp",
+        "demo:dip": "tsx src/app.ts dip"
     },
     "devDependencies": {
+        "@types/node": "^24.10.0",
         "tsx": "^4.16.0",
         "typescript": "^5.6.3"
     }
